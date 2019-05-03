@@ -1,0 +1,38 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - gulp-uncss > uncss > phantomjs > request > hawk > hoek:
+        patched: '2019-05-03T23:33:21.131Z'
+    - gulp-uncss > uncss > phantomjs > request > hawk > sntp > hoek:
+        patched: '2019-05-03T23:33:21.131Z'
+    - gulp-uncss > uncss > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-03T23:33:21.131Z'
+    - gulp-uncss > uncss > phantomjs > request > hawk > boom > hoek:
+        patched: '2019-05-03T23:33:21.131Z'
+  'npm:mime:20170907':
+    - gulp-uncss > uncss > request > mime:
+        patched: '2019-05-03T23:33:21.131Z'
+  'npm:minimatch:20160620':
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2019-05-03T23:33:21.131Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2019-05-03T23:33:21.131Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2019-05-03T23:33:21.131Z'
+  'npm:request:20160119':
+    - gulp-uncss > uncss > phantomjs > request:
+        patched: '2019-05-03T23:33:21.131Z'
+  'npm:tough-cookie:20170905':
+    - gulp-uncss > uncss > phantomjs > request > tough-cookie:
+        patched: '2019-05-03T23:33:21.131Z'
+  'npm:tunnel-agent:20170305':
+    - gulp-uncss > uncss > phantomjs > request > tunnel-agent:
+        patched: '2019-05-03T23:33:21.131Z'
+  'npm:uglify-js:20151024':
+    - watchify > browserify > umd > ruglify > uglify-js:
+        patched: '2019-05-03T23:33:21.131Z'
+    - watchify > browserify > umd > uglify-js:
+        patched: '2019-05-03T23:33:21.131Z'
