@@ -16,7 +16,9 @@
     "deploy": "gulp build && git push heroku",
     "postinstall": "node node_modules/.bin/gulp build",
     "clean": "git branch --merged master | grep -v 'master$' | xargs git branch -d 2>/dev/null && exit 1",
-    "test": "./node_modules/.bin/nightwatch -c test/nightwatch.json"
+    "test": "./node_modules/.bin/nightwatch -c test/nightwatch.json",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -69,11 +71,13 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^0.1.1",
     "watchify": "^0.6.2",
-    "winston": "^2.2.0"
+    "winston": "^2.2.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "chai": "^1.10.0",
     "mocha": "^2.0.1",
     "nightwatch": "^0.5.33"
-  }
+  },
+  "snyk": true
 }
