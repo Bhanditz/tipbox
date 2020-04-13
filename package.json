@@ -52,7 +52,7 @@
     "gulp-util": "^2.2.14",
     "hogan.js": "^3.0.2",
     "inherits": "^2.0.1",
-    "jquery": "^2.1.1",
+    "jquery": "^3.5.0",
     "kbpgp": "^2.0.46",
     "less-plugin-autoprefix": "^1.4.0",
     "lodash": "^2.4.1",
