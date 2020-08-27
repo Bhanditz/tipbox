@@ -55,7 +55,7 @@
     "jquery": "^2.1.1",
     "kbpgp": "^2.0.46",
     "less-plugin-autoprefix": "^1.4.0",
-    "lodash": "^2.4.1",
+    "lodash": "^4.17.17",
     "mailgun-js": "^0.6.7",
     "mold-source-map": "^0.3.0",
     "moment": "^2.10.2",
