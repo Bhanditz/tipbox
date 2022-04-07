@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/xdamman/tipbox",
   "dependencies": {
-    "async": "^0.9.0",
+    "async": "^3.2.2",
     "body-parser": "^1.9.0",
     "browserify": "^10.2.4",
     "events": "^1.0.2",
@@ -69,7 +69,7 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^0.1.1",
     "watchify": "^0.6.2",
-    "winston": "^2.2.0"
+    "winston": "^3.3.0"
   },
   "devDependencies": {
     "chai": "^1.10.0",
